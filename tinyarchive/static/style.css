@@ -1,0 +1,85 @@
+h1{
+    color:rgb(242, 235, 220);
+    background-color:#D9863D;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+h3 a{
+    color:rgb(120, 191, 178);
+    background-color:#f2ebdc;
+    text-align: center;
+    width: 100%; 
+}
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#D9863D;
+  }
+  
+.nav li {
+    display: inline-block
+  }
+  
+.nav li a {
+    display: block;
+    color:whitesmoke;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+.nav li a:hover {
+    background-color: rgb(192, 183, 165);
+  }
+body {
+    background-color: rgb(242, 235, 220);
+    text-align:center;
+}
+.intro{
+    padding-top: 20px;
+}
+.page_title{
+    color:rgb(120, 191, 178);
+    background-color:#f2ebdc;
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+}
+thead th{
+    color:rgb(217, 134, 61)
+}
+tr td a{
+    color: rgb(167, 111, 167)
+}
+p a{
+    color: rgb(167, 111, 167)
+}
+.content p {
+    color: red
+}
+.info li {
+    list-style-type: none;
+    text-align: center;
+}
+.transcription p {
+    text-align: center
+}
+.page_title h1{
+        color:whitesmoke;
+        background-color: #D9863D;
+        text-align: center;
+        width: 100%;
+        font-size: xx-large;
+}
+.breadcrumb a {
+    color:rgb(120, 191, 178);
+    background-color:#f2ebdc;
+    text-align: center;
+    width: 100%; 
+    font-size: large;
+}
