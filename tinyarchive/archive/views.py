@@ -77,10 +77,12 @@ def item_detail(request, item_id):
             template_to_render = "archive/item_artifact.html"
 
         elif isinstance(archive_item, AudioRecording):
-            context["item"]["speaker"] = archive_item.speaker
+            context["item"]["artist"] = archive_item.artist
             context["item"]["audio_file"] = archive_item.audio_file
             context["item"]["recording_date"] = archive_item.recording_date
             context["item"]["language"] = archive_item.language
+            context["item"]["record_label"] = archive_item.record_label
+            context["item"]["genre"] = archive_item.genre
             template_to_render = "archive/item_audiofile.html"
         else:
             context["item"]["transcription"] = archive_item.transcription
