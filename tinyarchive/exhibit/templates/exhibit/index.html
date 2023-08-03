@@ -2,20 +2,18 @@
 {% load static %}
 {% block content %}
 <div class="breadcrumb">
-    <a href="/"> Tiny Library </a>
+    <h3><a href="/"> Tiny Library </a></h3>
 </div>
 <div class="page_title">
-    Exhibits
+    <h1>Exhibits</h1>
 </div>
 <div class="content">
     {% if exhibits %}
-    <ul>
+    <p>
         {% for exhibit in exhibits %}
-        <li>
-            <div class="exhibit"><a href="{{exhibit.id}}">{{exhibit.name}} </a> : {{exhibit.snippet}} </div>
-        </li>
+            <a href="{{exhibit.id}}">{{exhibit.name}} </a> : {{exhibit.snippet}} </div>
         {% endfor %}
-    </ul>
+    </p>
     {% else %}
     <p>No exhibits yet!</p>
     {% endif %}
