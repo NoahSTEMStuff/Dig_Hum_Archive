@@ -118,4 +118,6 @@ div.exhibit_item ul {
 
 div.content div.exhibit_items ul {
     list-style-type: none;
+    text-align: center;
+    padding-right: 30px;
 }
