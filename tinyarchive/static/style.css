@@ -112,3 +112,10 @@ h2 {
 .about{
     text-align: left;
 }
+div.exhibit_item ul {
+    list-style-type: none;
+}
+
+div.content div.exhibit_items ul {
+    list-style-type: none;
+}
