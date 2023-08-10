@@ -65,6 +65,7 @@ p a{
 .info li {
     list-style-type: none;
     text-align: center;
+    padding-right: 40px;
 }
 .transcription p {
     text-align: center
