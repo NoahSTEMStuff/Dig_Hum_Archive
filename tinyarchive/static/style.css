@@ -96,3 +96,19 @@ p a{
     max-width: 75%;
     max-height: 75%;
 }
+.Rock h1{
+    background-color: #f2ebdc;
+    color: #D9863D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.intro {
+    padding: 20px;
+}
+h2 {
+    color:#D9863D;
+    text-align: left;
+}
+.about{
+    text-align: left;
+}
