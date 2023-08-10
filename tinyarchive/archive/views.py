@@ -79,7 +79,7 @@ def item_detail(request, item_id):
         elif isinstance(archive_item, AudioRecording):
             context["item"]["artist"] = archive_item.artist
             context["item"]["audio_file"] = archive_item.audio_file
-            context["item"]["recording_date"] = archive_item.recording_date
+            context["item"]["release_date"] = archive_item.release_date
             context["item"]["language"] = archive_item.language
             context["item"]["record_label"] = archive_item.record_label
             context["item"]["genre"] = archive_item.genre

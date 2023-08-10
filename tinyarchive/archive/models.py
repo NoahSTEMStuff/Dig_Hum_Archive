@@ -35,10 +35,11 @@ class Genre(models.Model):
 class AudioRecording(ArchiveDocument):
     language = models.CharField(max_length=200)
     artist = models.CharField(max_length=200, blank = True)
-    recording_date = models.DateField(auto_now=True)
+    release_date = models.DateField(auto_now=False)
     audio_file = models.FileField(upload_to="sounds/", null=True, blank=True)
     genre = models.ManyToManyField(Genre, related_name='genre')
     record_label = models.CharField(max_length=200, blank = True)
+    producer = models.CharField(max_length=200, blank = True)
 
 
 

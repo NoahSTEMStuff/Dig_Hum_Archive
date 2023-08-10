@@ -130,3 +130,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Copyrighted stuff
+record_information/Patti\ Smith - Horses/*
+record_information/The\ Doors\ -\ Greatest\ Hits/*
+record_information/Derek\ &\ The\ Dominos\ -\ Layla\ and\ Other\ Assorted\ Love\ Songs/*
+record_information/Santana\ -\ Moon\ Flower/*
+record_information/The\ Beatles\ (White Album)\ -\ The Beatles/*
+tinyarchive/media/sounds/*
+tinyarchive/media/photographs/*
